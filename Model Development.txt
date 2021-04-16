@@ -1,0 +1,54 @@
+Q1: If the predicted function is:
+The method is:
+
+a. Polynomial Regression
+b. Multiple Linear Regression
+
+Correct. Multiple Linear Regression
+
+Q2: What steps do the following lines of code perform?
+
+Input=[('scale',StandardScaler()),('model',LinearRegression())]
+pipe=Pipeline(Input)
+pipe.fit(Z,y)
+ypipe=pipe.predict(Z)
+
+a. Standardize the data, then perform a polynomial transform on the features Z
+b. Find the correlation between Z and y
+c. Standardize the data, then perform a prediction using a linear regression model using the features Z and targets y
+
+Correct. Standardize the data, then perform a prediction using a linear regression model using the features Z and targets y
+
+Q3: We create a polynomial feature as follows "PolynomialFeatures(degree=2)"; what is the order of the polynomial?
+
+a. 0
+b. 1
+c. 2
+
+Correct. 2
+
+Q4: Which statement is true about Polynomial linear regression?
+
+a.  Polynomial linear regression is not linear in any way
+b.  Although the predictor variables of Polynomial linear regression are not linear the relationship between the parameters or coefficients is linear
+c. Polynomial linear regression uses linear Wavelets
+
+Correct. Although the predictor variables of Polynomial linear regression are not linear the relationship between the parameters or coefficients is linear
+
+Q5: Consider the plot of one independent and one dependent variable. This is an example of what?
+
+a. Multiple Linear Regression 
+b. Linear Regression 
+c. Polynomial Regression
+
+Correct. Polynomial Regression
+
+Q6: Consider the following equation:
+
+The variable y is what? 
+
+a. The intercept 
+b. The predictor or independent variable
+c. The target or dependent variable     
+
+Correct. The target or dependent variable     

@@ -1,0 +1,41 @@
+Q1: What is the correct use of the "train_test_split" function such that 40% of the data samples will be utilized for testing, the parameter "random_state" is set to zero, and the input variables for the features and targets are x_data, y_data respectively?
+
+a. train_test_split(x_data, y_data, test_size=0, random_state=0.4)
+b. train_test_split(x_data, y_data, test_size=0.4, random_state=0)
+c. train_test_split(x_data, y_data)
+
+Correct. train_test_split(x_data, y_data, test_size=0.4, random_state=0)
+
+Q2: What is the correct use of the "train_test_split" function such that 40 samples will be utilized for testing, the parameter "random_state" is set to zero, and the input variables for the features and targets are x_data, y_data respectively?
+
+a. train_test_split(x_data, y_data)
+b. train_test_split(x_data, y_data, test_size=40, random_state=0)
+c. train_test_split(x_data, y_data, test_size=0.40, random_state=0)
+
+Correct. train_test_split(x_data, y_data, test_size=40, random_state=0)
+
+Q3: What is the output of the following code?
+cross_val_predict (lr2e, x_data, y_data, cv=3)
+
+a. The predicted values of the test data using cross-validation
+b. The average R^2 on the test data for each of the two folds
+c. This function finds the free parameter alpha
+
+Correct.  The predicted values of the test data using cross-validation
+
+Q4: What dictionary value would we use to perform a grid search to determine if normalization should be used and for testing the following values of alpha? 1,10, 100
+
+a. normalize=[True,False]
+b. {'alpha': [1,10,100]}]
+c. [{'alpha':[1,10,100],'normalize':[True,False]} ]
+
+Correct. [{'alpha':[1,10,100],'normalize':[True,False]} ]
+
+
+Q5: You have a linear model; the average R^2 value on your training data is 0.5, you perform a 100th order polynomial transform on your data then use these values to train another model. After this step, your average R^2 is 0.99; which of the following comments is correct?
+
+a. 100-th order polynomial will work better on unseen data
+b. The results on your training data is not the best indicator of how your model performs; you should use your test data to get a better idea
+c.  You should always use the simplest model
+
+Correct. The results on your training data is not the best indicator of how your model performs; you should use your test data to get a better idea
